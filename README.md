@@ -48,13 +48,16 @@ Simple feedforward neural network
 
 ## 📚 Learning Resources
 
-Comprehensive documentation in the companion learning directory:
-- Language Fundamentals
-- Structs and Traits
-- Ownership and Memory
-- SIMD and Performance
-- Metaprogramming
-- GPU Programming
+Comprehensive documentation in the [docs/](docs/) directory:
+
+| Doc | Topics |
+|-----|--------|
+| [01-fundamentals](docs/01-fundamentals.md) | Syntax, types, functions, `def` vs `fn` |
+| [02-structs-and-traits](docs/02-structs-and-traits.md) | Structs, traits, OOP patterns |
+| [03-ownership-and-memory](docs/03-ownership-and-memory.md) | Ownership, borrowing, memory safety |
+| [04-simd-and-performance](docs/04-simd-and-performance.md) | SIMD, vectorization, parallelization |
+| [05-metaprogramming](docs/05-metaprogramming.md) | Parameters, `comptime`, compile-time code |
+| [06-gpu-programming](docs/06-gpu-programming.md) | GPU kernels, device memory |
 
 ## ⚠️ Note on API Changes
 
